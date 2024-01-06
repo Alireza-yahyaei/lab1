@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  web1:
+    container_name: "web1"
+    image: "nginx"
+    ports:
+      - "8081:80"
+
+  web2:
+    container_name: "web2"
+    image: "nginx"
+    ports:
+      - "8082:80"
+
+      
